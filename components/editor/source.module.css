@@ -1,0 +1,19 @@
+.root {
+  padding: 0.5rem;
+  background-color: #eeeeee;
+}
+
+.inner {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100%;
+}
+
+.inner textarea {
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+}

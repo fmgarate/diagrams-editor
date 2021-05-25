@@ -1,0 +1,15 @@
+.root {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.root button {
+  margin-left: 0.5rem;
+  background: none;
+  border: none;
+  color: #808080;
+}
+
+.root button:hover {
+  cursor: pointer;
+}
