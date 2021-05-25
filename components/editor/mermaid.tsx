@@ -18,7 +18,7 @@ const Mermaid: FC<Props> = ({ source, onEncoded }) => {
       startOnLoad: false,
       sequence: {
         diagramMarginX: 5,
-        diagramMarginY: 5,
+        diagramMarginY: 15,
       },
     })
   }, [])
